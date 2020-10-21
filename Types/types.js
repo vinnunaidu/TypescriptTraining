@@ -13,6 +13,7 @@ var Names;
     Names[Names["Bin"] = 1] = "Bin";
     Names[Names["Tin"] = 2] = "Tin";
 })(Names || (Names = {}));
+;
 for (var nm in Names) {
     console.log(nm);
 }
